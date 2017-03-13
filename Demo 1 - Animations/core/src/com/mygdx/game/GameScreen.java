@@ -31,11 +31,12 @@ public class GameScreen extends MyGdxGameScreen {
 
         bob = new Bob(0, 0);
 
-        Texture bobTexture = new Texture(Gdx.files.internal("bob.png"));
+        Texture bobTexture = new Texture("bob.png");
         TextureRegion[] split = new TextureRegion(bobTexture).split(20, 20)[0];
         TextureRegion[] mirror = new TextureRegion(bobTexture).split(20, 20)[0];
         for (TextureRegion region : mirror)
             region.flip(true, false);
+
         bobRunRight = new Animation(0.1f, split[0], split[1]);
         bobRunLeft = new Animation(0.1f, mirror[0], mirror[1]);
         bobJumpRight = new Animation(0.1f, split[2], split[3]);
@@ -78,7 +79,7 @@ public class GameScreen extends MyGdxGameScreen {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         batch.begin();
-        batch.draw(anim.getKeyFrame(bob.stateTime, loop), bob.pos.x, bob.pos.y);
+        batch.draw(anim.getKeyFrame(bob.stateTime, loop), bob.pos.x, bob.pos.y, 100,100);
         batch.end();
     }
 

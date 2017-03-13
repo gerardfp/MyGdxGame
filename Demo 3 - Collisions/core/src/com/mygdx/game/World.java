@@ -87,8 +87,6 @@ class World {
             }
 
             if(Intersector.overlaps(b.bounds, player.weapon.bounds)){
-                player.gamePops++;
-
                 removeBalls.add(b);
                 player.weapon.endShoot();
             }
