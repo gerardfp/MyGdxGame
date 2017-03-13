@@ -18,7 +18,6 @@ class Player {
 
     float gameTimer = 0;
     int gamePops = 0;
-    int lives = 3;
 
     Player(float x){
         pos = new Vector2(x, 8);

@@ -10,7 +10,6 @@ class Assets {
     static Animation<TextureRegion> harpoonAnim;
     static TextureRegion[] ballAnims = new TextureRegion[5];
     static TextureRegion background;
-    static TextureRegion playerTexture;
 
     {
         TextureAtlas spriteSheet = new TextureAtlas("superpang.txt");
