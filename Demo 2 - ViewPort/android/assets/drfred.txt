@@ -1,0 +1,40 @@
+drfred.png
+size: 80, 53
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+idle
+  rotate: false
+  xy: 0, 0
+  size: 16, 53
+  orig: 16, 53
+  offset: 0, 0
+  index: 1
+idle
+  rotate: false
+  xy: 16, 0
+  size: 16, 53
+  orig: 16, 53
+  offset: 0, 0
+  index: 2
+walk
+  rotate: false
+  xy: 32, 0
+  size: 15, 53
+  orig: 15, 53
+  offset: 0, 0
+  index: 1
+walk
+  rotate: false
+  xy: 47, 0
+  size: 18, 52
+  orig: 18, 52
+  offset: 0, 0
+  index: 2
+walk
+  rotate: false
+  xy: 65, 0
+  size: 15, 52
+  orig: 15, 52
+  offset: 0, 0
+  index: 3
