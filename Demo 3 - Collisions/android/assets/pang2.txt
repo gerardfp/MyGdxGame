@@ -1,0 +1,96 @@
+pang2.png
+size: 128, 820
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball0
+  rotate: false
+  xy: 0, 0
+  size: 128, 106
+  orig: 128, 106
+  offset: 0, 0
+  index: -1
+ball1
+  rotate: false
+  xy: 0, 106
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1
+ball2
+  rotate: false
+  xy: 0, 186
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+ball3
+  rotate: false
+  xy: 64, 186
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+ball4
+  rotate: false
+  xy: 96, 186
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 0, 238
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: 1
+player
+  rotate: false
+  xy: 62, 238
+  size: 56, 62
+  orig: 56, 62
+  offset: 0, 0
+  index: 2
+player
+  rotate: false
+  xy: 0, 300
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: 3
+player
+  rotate: false
+  xy: 54, 300
+  size: 56, 62
+  orig: 56, 62
+  offset: 0, 0
+  index: 4
+harpoon
+  rotate: false
+  xy: 0, 362
+  size: 20, 398
+  orig: 20, 398
+  offset: 0, 0
+  index: 1
+harpoon
+  rotate: false
+  xy: 20, 362
+  size: 20, 400
+  orig: 20, 400
+  offset: 0, 0
+  index: 2
+idle
+  rotate: false
+  xy: 40, 362
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+shoot
+  rotate: false
+  xy: 0, 762
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1

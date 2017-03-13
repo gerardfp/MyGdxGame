@@ -1,0 +1,117 @@
+superpang.png
+size: 340, 240
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 64, 40
+  size: 256, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+ball0
+  rotate: false
+  xy: 0, 40
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+ball1
+  rotate: false
+  xy: 262, 0
+  size: 48, 40
+  orig: 48, 40
+  offset: 0, 0
+  index: -1
+ball2
+  rotate: false
+  xy: 36, 0
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+ball3
+  rotate: false
+  xy: 8, 0
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+ball4
+  rotate: false
+  xy: 0, 0
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 151, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+harpoon
+  rotate: false
+  xy: 320, 40
+  size: 10, 199
+  orig: 10, 199
+  offset: 0, 0
+  index: 1
+harpoon
+  rotate: false
+  xy: 330, 40
+  size: 10, 200
+  orig: 10, 200
+  offset: 0, 0
+  index: 2
+idle
+  rotate: false
+  xy: 181, 0
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+lives
+  rotate: false
+  xy: 24, 0
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+move
+  rotate: false
+  xy: 93, 0
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: 1
+move
+  rotate: false
+  xy: 234, 0
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: 2
+move
+  rotate: false
+  xy: 124, 0
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: 3
+move
+  rotate: false
+  xy: 206, 0
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: 4
+shoot
+  rotate: false
+  xy: 68, 0
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
